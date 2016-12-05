@@ -1,7 +1,11 @@
-
-var Comment = React.createClass({
+var Movie = React.createClass({
     render: function() {
-        return ()
+        return (
+            <div>
+                <h3>{this.props.title}</h3>
+                <h4>{this.props.genre}</h4>
+            </div>
+        );
     }
 });
 

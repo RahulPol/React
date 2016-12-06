@@ -23,6 +23,6 @@ const element = (
 
 ReactDOM.render(
     element,
-    document.getElementById('example')
+    document.getElementById('container')
 );
 
